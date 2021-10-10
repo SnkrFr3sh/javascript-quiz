@@ -1,9 +1,6 @@
 # javascript-quiz
 
-
-
-
-
+![Alt text](./assets/quiz screenshot.png "Javascript Quiz Screenshot")
 
 
 This is a quiz on the subject about javascript.
