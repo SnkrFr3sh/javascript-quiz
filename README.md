@@ -1,6 +1,7 @@
 # javascript-quiz
 
-![Alt text](./assets/quiz screenshot.png "Javascript Quiz Screenshot")
+![quiz screenshot](https://user-images.githubusercontent.com/87551856/136706121-bfca5c17-b619-4bfc-801f-c93f8c57c325.png)
+
 
 
 This is a quiz on the subject about javascript.
