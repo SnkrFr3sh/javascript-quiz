@@ -1,0 +1,263 @@
+:root {
+    --dark-grey: #363532;
+    --dark-brown: #4d463d;
+    --khaki: #c3a377;
+    --tiffany: #54b4b4; 
+    --teal: #207375;
+    --crimson: #bc2e39;
+    --darkerTeal: #155b64;
+    --cream: #f5f4ec;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+    font-family: sans-serif;
+    color: var(--dark-grey);
+    background-color:var(--dark-grey);
+    margin: 0px;
+}
+
+body {
+    justify-content: center;
+    background-color:var(--dark-grey);
+
+}
+
+
+.h2Correct {
+    background-color: var(--khaki);
+    text-align: center;
+}
+
+.h2Incorrect {
+    color: var(--crimson);
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    background-color: var(--khaki);
+}
+
+.resultsTitle {
+    background-color: var(--khaki);
+    text-align: center;
+    color: var(--dark-grey);
+    margin-bottom:20px;
+}
+
+.resultsCardQs {
+    background-color: var(--khaki);
+    text-align: left;
+    color: var(--dark-grey);
+}
+
+.resultsCardAsCorrect {
+    background-color: var(--khaki);
+    text-align: left;
+    color: var(--darkerTeal);
+    margin-bottom: 10px;
+}
+
+.resultsCardAsIncorrect {
+    background-color: var(--khaki);
+    text-align: left;
+    color: var(--crimson);
+    margin-bottom:10px;
+}
+
+header {
+    background-color: var(--teal);
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 300px;
+
+}
+
+header h4{
+    background-color: var(--teal);
+    color: var(--cream);
+
+}
+
+header h4 span{
+    background-color: var(--teal);
+    color: var(--cream);
+    font-size: 20px;
+}
+
+.score{
+    background-color: var(--teal);
+    color: var(--cream);
+}
+
+
+.highscore {
+    float: left;
+}
+
+.timer{
+    float:right;
+}
+
+/* .timer30{
+    float: right;    
+    color:var(--crimson);
+} */
+
+.startQuiz {
+    background-color:var(--teal);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.resultsBtn {
+    background-color:var(--teal);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-items: center;
+}
+
+/* come back and style this for UX */
+.incorrect {
+    background-color:var(--teal);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    align-items: center;
+    max-width: 410px;
+    min-width: 410px;
+    /* font-weight: bold;
+    color: var(--cream); */
+
+}
+
+.correct {
+    background-color:var(--teal);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    align-items: center;
+    max-width: 410px;
+    min-width: 410px;
+    /* font-weight: bold;
+    color: var(--cream); */
+}
+
+
+#container{
+    border-style:solid;
+    border-color:var(--khaki);
+    padding: 20px;
+    margin: 60px;
+    background-color: var(--khaki);
+    border-radius: 20px;
+    align-items: center;
+    min-width: 450px;
+
+}
+
+#container h1{
+    background-color: var(--khaki);
+    text-align: center;
+}
+
+#container div{
+    background-color: var(--khaki);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#card-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#card-contents-results{
+    align-items: left;
+    
+}
+
+
+/* #startButton{
+    text-align: center;
+    align-items: center;
+} */
+.startQuiz:hover{
+    background-color: var(--tiffany);
+
+}
+
+.questions:hover{
+    background-color: var(--teal);
+
+}
+
+.correct:hover{
+    background-color: var(--tiffany);
+
+}
+.incorrect:hover{
+    background-color: var(--tiffany);
+
+}
+
+.resultsBtn:hover{
+    background-color: var(--tiffany);
+}
+
+
+#wrapper{
+    background-color:var(--dark-grey);
+}
+
+.next {
+    background-color:var(--khaki);
+    border: none;
+    border-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.next:hover {
+    color: var(--darkerTeal);
+}
